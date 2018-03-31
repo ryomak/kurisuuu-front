@@ -1,13 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <root/>
   </div>
 </template>
 
 <script>
+import Root from './components/Root.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    Root
+  }
 }
 </script>
 
